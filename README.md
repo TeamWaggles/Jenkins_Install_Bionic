@@ -92,4 +92,4 @@ I used the documentation found on www.vagrantup.com and jenkins.io. I researched
 
 ### 4) Briefly explain what automation means to you, and why it is important to an organization's infrastructure design strategy 
 
-Automation provides time saving at a high level, and that in and of itself is significant. However, to be able to deploy applications, infrastructure, users, etc. for developers who need those resources on an on demand basis is truly game changing. The cost savings of having systems up and running on cloud infrastructures, or on premise, for specific applications/reasons would be a boon to most any organization. We are in a time where being nimble is paramount, Puppet provides the tools to be on the cutting edge.
+Automation provides time saving at a high level, and that in and of itself is significant. However, to be able to deploy applications, infrastructure, users, etc. for developers who need those resources on an on demand basis is truly game changing. The cost savings of having systems up and running on cloud infrastructures, or on premise, for specific applications/reasons would be a boon to most any organization.
