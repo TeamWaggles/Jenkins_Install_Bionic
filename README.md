@@ -30,8 +30,7 @@ Automated installation and configuration of Jenkins using a Bash script on a fre
 
 https://GitHub.com/TeamWaggles/Jenkins_Install_Xenial
 
-This repo will contain all files for this project; including the script provided via submission for starting the deployment,
-run_challenge.sh.
+This repo will contain all files for this project; Vagrantfile, jenkins.sh and README. These files should all be placed in the same local directory upon download.
 
 ### vagrant configuration
 
@@ -56,7 +55,9 @@ Execute the provided Vagrant file. The Vagrant file will then execute the jenkin
 * (d) Install the latest jenkins package, if necessary.
 * (e) Modify the Jenkins port to 8000 from 8080, as required
 * (f) Restarts Jenkins service
-* (g) Ensure that Jenkins service is running on the VM
+* (g) vagrant ssh 
+* (h) Ensure that Jenkins service is running on the VM
+* (i) Run "ps -ef | grep Jenkins" within the VM to see that Jenkins services are running and that port 8000 is used
 
 
 ## Questions
