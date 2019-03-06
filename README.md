@@ -2,7 +2,7 @@
 
 ## Objective:
 
-Automated installation and configuration of Jenkins using Puppet on a fresh vagrant box with Ubuntu 16.04 LTS
+Automated installation and configuration of Jenkins using Bash on a fresh vagrant box with Ubuntu 16.04 LTS
 
 ## Requirements for Technical Assessment:
 * (a) The solution must run on a clean installation of the chosen operating system without errors.
