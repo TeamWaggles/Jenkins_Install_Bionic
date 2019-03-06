@@ -1,8 +1,8 @@
-# Jenkins_Install_Xenial
+# Jenkins install on Ubuntu Xenial
 
 ## Objective:
 
-Automated installation and configuration of Jenkins using Bash on a fresh vagrant box with Ubuntu 16.04 LTS
+Automated installation and configuration of Jenkins using a Bash script on a fresh vagrant box with Ubuntu 16.04 LTS (Xenial).
 
 ## Requirements for Technical Assessment:
 * (a) The solution must run on a clean installation of the chosen operating system without errors.
@@ -14,24 +14,17 @@ Automated installation and configuration of Jenkins using Bash on a fresh vagran
 
 ### Configuration and software prerequisites
 
-* Use of preconfigured box via Vagrant: https://app.vagrantup.com/puppetlabs/boxes/ubuntu-16.04-64-puppet
+* Use of preconfigured box via Vagrant: https://app.vagrantup.com/ubuntu/boxes/xenial64
 * Use of clean Ubuntu 16.04 image for virtual box VM created via Vagrant
-* The host is required to have git installed. 
 * Vagrant version 2.2.3
-* Puppet version on pre-configured box is 4.5.1
 * VirtualBox version 5.1.22 r115126 (Qt5.6.2)
-* All code and manifests related to this are stored within a GitHub Repo - defined in later section
+* Java 8 will be installed prior to Jenkins being installed
 * Jenkins will be available on port 8000 during installation
 * VM will have a virtualbox host-only interface with IP address of 35.25.35.125 to test host access to Jenkins within VM
-* VM will have a virtualbox nat'd interface with IP address of 10.0.2.15
 * Vagrantfile will be used to provision the VM within Virtualbox
-* Vagrantfile will contain the puppet provisioner to enable execution of the manifests to install Jenkins
-* The working directory will be shared between the VM and the host
 * This project was tested upon MAC OS X 10.14.3, also using iTerm2, Build 3.2.7. This installation  would work with Linux. Not tested on any other Linux distro or on Windows.
 * The testing script was written in bash for Linux.
-* Subsequent executions from within the VM of the puppet manifests should be done via root (or via sudo functionality that is already provisioned on VM)
-* Subsequent executions of the automation script (run_challenge.sh) will  remove a VM built via Vagrant and remove the directory created via cloning from GitHub.
-* Testing will be initiated with the execution of the run_challenge.sh script
+* Subsequent executions from within the VM using "vagrant provision" will re-run the script more quickly than the original "Vagrant up"
 
 ### GitHub repository
 
