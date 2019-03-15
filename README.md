@@ -55,7 +55,7 @@ Execute the provided Vagrant file. The Vagrant file will then execute the jenkin
 * (d) Install the latest jenkins package, if necessary.
 * (e) Modify the Jenkins port to 8000 from 8080, as required
 * (f) Restarts Jenkins service
-* (g) vagrant ssh 
+* (g) Run "vagrant ssh" at the command line 
 * (h) Ensure that Jenkins service is running on the VM
 * (i) Run "ps -ef | grep Jenkins" within the VM to see that Jenkins services are running and that port 8000 is used
 
