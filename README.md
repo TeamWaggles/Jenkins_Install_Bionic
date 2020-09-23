@@ -28,7 +28,7 @@ Automated installation and configuration of Jenkins using a Bash script on a fre
 
 ### GitHub repository
 
-https://GitHub.com/TeamWaggles/Jenkins_Install_Xenial
+https://GitHub.com/TeamWaggles/Jenkins_Install_Bionic
 
 This repo will contain all files for this project; Vagrantfile, jenkins.sh and README. These files should all be placed in the same local directory upon download.
 
