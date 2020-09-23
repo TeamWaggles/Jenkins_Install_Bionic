@@ -1,4 +1,4 @@
-# Jenkins install on Ubuntu Xenial
+# Jenkins install on Ubuntu Bionic
 
 ## Objective:
 
