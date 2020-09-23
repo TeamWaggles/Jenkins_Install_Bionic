@@ -25,6 +25,7 @@ echo "Packages are being configured. Please wait."
 sleep 1m
 
 
+
 echo "Initial administrator password:"
 JENKINSPWD=$(sudo cat /var/lib/jenkins/secrets/initialAdminPassword)
 echo $JENKINSPWD
