@@ -14,7 +14,7 @@ Automated installation and configuration of Jenkins using a Bash script on a fre
 
 ### Configuration and software prerequisites
 
-* Use of preconfigured box via Vagrant: https://app.vagrantup.com/ubuntu/boxes/xenial64
+* Use of preconfigured box via Vagrant: https://app.vagrantup.com/ubuntu/boxes/bionic64
 * Use of clean Ubuntu 16.04 image for virtual box VM created via Vagrant
 * Vagrant version 2.2.3
 * VirtualBox version 5.1.22 r115126 (Qt5.6.2)
